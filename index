@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Privacy Policy - Decibel Ambient</title>
+   <style>
+       body {
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+           line-height: 1.6;
+           max-width: 800px;
+           margin: 0 auto;
+           padding: 20px;
+           color: #333;
+           background-color: #fff;
+       }
+       h1 {
+           color: #2c3e50;
+           border-bottom: 2px solid #3498db;
+           padding-bottom: 10px;
+       }
+       h2 {
+           color: #34495e;
+           margin-top: 30px;
+       }
+       .highlight {
+           background-color: #e8f4f8;
+           padding: 15px;
+           border-left: 4px solid #3498db;
+           margin: 20px 0;
+       }
+       .contact {
+           background-color: #f8f9fa;
+           padding: 15px;
+           border-radius: 5px;
+           margin-top: 30px;
+       }
+       ul {
+           padding-left: 20px;
+       }
+       li {
+           margin-bottom: 8px;
+       }
+       .last-updated {
+           font-style: italic;
+           color: #666;
+           text-align: center;
+           margin-top: 40px;
+           border-top: 1px solid #eee;
+           padding-top: 20px;
+       }
+   </style>
+</head>
+<body>
+   <h1>Privacy Policy</h1>
+   <h2>Decibel Ambient - Sound Level Meter for Wear OS</h2>
+
+   <div class="highlight">
+       <strong>Key Point:</strong> Decibel Ambient processes all audio data locally on your device. No audio data is transmitted to external servers or third parties.
+   </div>
+
+   <h2>1. Information We Collect</h2>
+   <p>Decibel Ambient requires access to your device's microphone to measure sound levels (SPL - Sound Pressure Level). The app collects:</p>
+   <ul>
+       <li><strong>Audio Data:</strong> Real-time audio samples from your device's microphone for SPL calculation</li>
+       <li><strong>Measurement History:</strong> SPL readings, timestamps, and calibration settings stored locally</li>
+       <li><strong>App Settings:</strong> User preferences such as thresholds, calibration values, and display options</li>
+   </ul>
+
+   <h2>2. How We Use Your Information</h2>
+   <p>The collected information is used solely for:</p>
+   <ul>
+       <li>Real-time sound level measurement and display</li>
+       <li>Calculating and displaying SPL statistics (average, minimum, maximum)</li>
+       <li>Storing measurement history for user reference</li>
+       <li>Applying user-defined calibration and threshold settings</li>
+       <li>Providing audio level alerts and notifications</li>
+   </ul>
+
+   <h2>3. Data Storage and Security</h2>
+   <div class="highlight">
+       <strong>Local Storage Only:</strong> All data is stored exclusively on your Wear OS device. No data is uploaded to cloud servers or transmitted to external services.
+   </div>
+   <ul>
+       <li><strong>Audio Processing:</strong> Audio data is processed in real-time and immediately discarded. No audio recordings are saved.</li>
+       <li><strong>Measurement Data:</strong> SPL readings and statistics are stored in a local database on your device</li>
+       <li><strong>Export Feature:</strong> When you export data, it creates a CSV file locally on your device</li>
+       <li><strong>No Network Access:</strong> The app does not require internet connection and does not transmit data</li>
+   </ul>
+
+   <h2>4. Data Sharing</h2>
+   <p>Decibel Ambient does not share your data with third parties. Specifically:</p>
+   <ul>
+       <li>No audio data is transmitted or stored externally</li>
+       <li>No measurement data is sent to analytics services</li>
+       <li>No personal information is collected or shared</li>
+       <li>Export files are shared only when you explicitly choose to do so</li>
+   </ul>
+
+   <h2>5. Your Control Over Data</h2>
+   <p>You have complete control over your data:</p>
+   <ul>
+       <li><strong>Delete History:</strong> You can delete all measurement history through the app settings</li>
+       <li><strong>Reset Settings:</strong> You can reset app settings to defaults at any time</li>
+       <li><strong>Uninstall:</strong> Uninstalling the app removes all stored data from your device</li>
+       <li><strong>Export Control:</strong> You decide when and how to export your measurement data</li>
+   </ul>
+
+   <h2>6. Permissions Explained</h2>
+   <p>Decibel Ambient requests the following permissions:</p>
+   <ul>
+       <li><strong>Microphone (RECORD_AUDIO):</strong> Required to capture audio for SPL measurement. Audio is processed in real-time and not recorded.</li>
+       <li><strong>Wake Lock:</strong> Prevents the device from sleeping during active measurements</li>
+       <li><strong>Vibrate:</strong> Provides haptic feedback for threshold alerts</li>
+   </ul>
+
+   <h2>7. Data Retention</h2>
+   <ul>
+       <li>Measurement history is retained based on your app settings (configurable retention period)</li>
+       <li>You can manually delete all data at any time through the app</li>
+       <li>Data is automatically removed when you uninstall the app</li>
+   </ul>
+
+   <h2>8. Children's Privacy</h2>
+   <p>Decibel Ambient does not collect personal information from children under 13. The app is designed as a measurement tool and does not require personal data to function.</p>
+
+   <h2>9. Changes to Privacy Policy</h2>
+   <p>We may update this privacy policy from time to time. Changes will be reflected in app updates with an updated "Last Modified" date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+   <h2>10. Contact Information</h2>
+   <div class="contact">
+       <p>If you have questions about this privacy policy or the app's data practices, please contact:</p>
+       <p><strong>Developer:</strong> HideOnHP<br>
+       <strong>Email:</strong> contact.hideonhp@gmail.com<br>
+       <strong>App:</strong> Decibel Ambient for Wear OS</p>
+   </div>
+
+   <div class="highlight">
+       <strong>Summary:</strong> Decibel Ambient is a privacy-first application. All audio processing happens locally on your device. No data is transmitted to external servers. You maintain complete control over your measurement data.
+   </div>
+
+   <div class="last-updated">
+       <p>Last Updated: November 10, 2025</p>
+       <p>Effective Date: November 10, 2025</p>
+   </div>
+</body>
+</html>
